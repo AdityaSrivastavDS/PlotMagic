@@ -1,0 +1,8 @@
+setup.py
+PlotMagic.egg-info/PKG-INFO
+PlotMagic.egg-info/SOURCES.txt
+PlotMagic.egg-info/dependency_links.txt
+PlotMagic.egg-info/requires.txt
+PlotMagic.egg-info/top_level.txt
+plot_magic/__init__.py
+plot_magic/viz.py
