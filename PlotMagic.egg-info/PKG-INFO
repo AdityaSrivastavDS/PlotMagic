@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: PlotMagic
-Version: 0.2
+Version: 0.3
 Summary: A Python package for easy-to-use advanced visualizations
 Author: Aditya Srivastav
 Author-email: adityathestar2006@gmail.com
@@ -34,35 +34,34 @@ Requires-Dist: pandas
 - Pair Plots
 
 # Usage
-Hereâ€™s how you can use the functions in PlotMagic to create various visualizations:
+Here is how you can use the functions in PlotMagic to create various visualizations:
 
-python
-Copy code
-from PlotMagic import viz
+
+from plot_magic import viz
 
 ## Create a line chart
-data = [10, 20, 30, 25, 15]
-viz.line_chart(data)
+- data = [10, 20, 30, 25, 15]
+- viz.line_chart(data)
 
 ## Create a bar chart
-categories = ['A', 'B', 'C']
-values = [15, 30, 45]
-viz.bar_chart(categories, values)
+- categories = ['A', 'B', 'C']
+- values = [15, 30, 45]
+- viz.bar_chart(categories, values)
 
 ## Create a heatmap
-import numpy as np
-heatmap_data = np.random.rand(10, 10)
-viz.heatmap(heatmap_data)
+- import numpy as np
+- heatmap_data = np.random.rand(10, 10)
+- viz.heatmap(heatmap_data)
 
 ## Create a scatter plot
-x = [1, 2, 3, 4, 5]
-y = [10, 15, 8, 12, 18]
-viz.scatter_plot(x, y)
+- x = [1, 2, 3, 4, 5]
+- y = [10, 15, 8, 12, 18]
+- viz.scatter_plot(x, y)
 
 ## Create a pie chart
-labels = ['Category 1', 'Category 2', 'Category 3']
-sizes = [30, 45, 25]
-viz.pie_chart(labels, sizes)
+- labels = ['Category 1', 'Category 2', 'Category 3']
+- sizes = [30, 45, 25]
+- viz.pie_chart(labels, sizes)
 
 ## Visualizations
 
