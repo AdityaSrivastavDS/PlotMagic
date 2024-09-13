@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='PlotMagic',
-    version='0.2',
+    version='0.3',
     description='A Python package for easy-to-use advanced visualizations',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
